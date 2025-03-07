@@ -27,6 +27,9 @@ function searchCountry() {
     section.innerHTML = "";
     section.append(inputSearch, buttonSearch)
 
+    let divFlags = document.createElement('div');
+
+
 
     let inputValue = inputSearch.value;
 
@@ -46,7 +49,6 @@ function searchCountry() {
 
                     }
                 } else {
-                    let divFlags = document.createElement('div');
                     let imgFlag = document.createElement('img');
                     let flagCountrie = countrie.flags.png
                     imgFlag.setAttribute('src', flagCountrie);
