@@ -8,7 +8,7 @@
 
 .divFlags {
     width: 80%;
-
+    background-color: black;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
