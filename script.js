@@ -3,10 +3,19 @@
 
 // Importante: Ya lo hablamos en clase, pero no está permitido el uso inteligencia artificial como ChatGPT, Copilot, Gemini, DeepSeek, etc...
 
+const section = document.getElementById('section');
+const inputSearch = document.getElementById('inputSearch');
+const buttonSearch = document.getElementById('buttonSearch');
+
+let API_URL = 'https://restcountries.com/#rest-countries'
+
+
 // Para entregar tu solución, debes subirla a un repositorio en GitHub y agregar como colaboradores a nvent97-thebridge y Rotosama para que puedan acceder a tu código.
 
 // Ejercicio 1
 // En este ejercicio, debes crear una página web donde los usuarios puedan buscar países y ver sus banderas. Es necesario un input para que el usuario escriba un texto y un boton para hacer la busqueda. Cuando el usuario escriba el nombre de un país y presione el botón, se debe hacer una petición a la API: https://restcountries.com/#rest-countries
+
+fetch()
 
 // Pista: El endpoint para buscar paises por nombre es el siguiente: https://restcountries.com/v3.1/name/{nombreABuscar}
 
@@ -14,6 +23,20 @@
 // image image
 
 // Nota: No es necesario que la página tenga un diseño bonito, lo importante es que se vea la bandera correctamente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Ejercicio 2
 // A continuación, tienes una función en JavaScript que contiene errores. Tu tarea es identificar y explicar los errores: Escribe un comentario en el archivo del ejercicio 1 explicando qué errores encontraste y cómo corregirlos.
