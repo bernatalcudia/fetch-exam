@@ -6,7 +6,7 @@
     gap: 1rem;
 }
 
-#sectionFlags {
+.divFlags {
     display: flex;
     flex-flow: row wrap;
     align-items: center;

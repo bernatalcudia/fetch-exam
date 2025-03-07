@@ -29,6 +29,8 @@ function searchCountry() {
 
     let divFlags = document.createElement('div');
 
+    divFlags.setAttribute('class', 'divFlags')
+
 
 
     let inputValue = inputSearch.value;
