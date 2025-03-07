@@ -1,0 +1,18 @@
+section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#inputSearch {
+    border-radius: 2rem;
+    border: solid violet 0.2rem;
+}
+
+#buttonSearch {
+    color: white;
+    background-color: red;
+    border-radius: 1rem;
+}
