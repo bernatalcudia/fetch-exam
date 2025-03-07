@@ -31,8 +31,6 @@ function searchCountry() {
     let imgFlag = document.createElement('img');
     let inputValue = inputSearch.value;
 
-
-    console.log(inputValue);
     fetch(`https://restcountries.com/v3.1/name/${inputValue}`)
         .then(result => (result.json()))
         .then(countries => {
