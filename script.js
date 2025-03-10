@@ -41,22 +41,13 @@ function searchCountry() {
 
             countries.forEach(countrie => {
                 console.log(countrie)
-                if (countrie < 0) {
-                    for (let index = 0; index < countrie.length; index++) {
-                        let flagCountrie = countrie.flags.png
-                        let imgFlagFor = document.createElement('img')
-                        imgFlagFor.setAttribute('src', flagCountrie);
-                        divFlags.appendChild(imgFlagFor);
-                        section.appendChild(divFlags);
 
-                    }
-                } else {
-                    let imgFlag = document.createElement('img');
-                    let flagCountrie = countrie.flags.png
-                    imgFlag.setAttribute('src', flagCountrie);
-                    divFlags.appendChild(imgFlag);
-                    section.appendChild(divFlags);
-                }
+                let imgFlag = document.createElement('img');
+                let flagCountrie = countrie.flags.png
+                imgFlag.setAttribute('src', flagCountrie);
+                divFlags.appendChild(imgFlag);
+                section.appendChild(divFlags);
+
 
             });
 
