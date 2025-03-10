@@ -40,7 +40,6 @@ function searchCountry() {
         .then(countries => {
 
             countries.forEach(countrie => {
-                console.log(countrie)
 
                 let imgFlag = document.createElement('img');
                 let flagCountrie = countrie.flags.png
