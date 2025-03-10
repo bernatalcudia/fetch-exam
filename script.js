@@ -39,11 +39,11 @@ function searchCountry() {
         .then(result => (result.json()))
         .then(countries => {
 
-            countries.forEach(countrie => {
+            countries.forEach(country => {
 
                 let imgFlag = document.createElement('img');
-                let flagCountrie = countrie.flags.png
-                imgFlag.setAttribute('src', flagCountrie);
+                let flagCountry = country.flags.png
+                imgFlag.setAttribute('src', flagCountry);
                 divFlags.appendChild(imgFlag);
                 section.appendChild(divFlags);
 
