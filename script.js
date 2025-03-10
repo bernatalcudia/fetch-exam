@@ -79,8 +79,8 @@ buttonSearch.addEventListener('click', searchCountry);
 // Ejercicio 2
 // A continuación, tienes una función en JavaScript que contiene errores. Tu tarea es identificar y explicar los errores: Escribe un comentario en el archivo del ejercicio 1 explicando qué errores encontraste y cómo corregirlos.
 
-const filtrar_por_Nombre = (array, nombre) => {
-    var filteredArray = array.filter((x) => x.includes(nombre))
+const filterName = (array, nombre) => {
+    let filteredArray = array.filter((element) => element.includes(nombre))
     return filteredArray
 }
 //Se deberia de devolver el filteredArray
